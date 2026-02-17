@@ -1,5 +1,5 @@
 # MetabolicNetworks
-This repository is in supplementation to my MSc Thesis Project "Developing Enzyme-Constrained Genome-Scale Metabolic Model Pipeline to Decipher Microbiome Metabolic Alterations". Here you can find relevant scripts and results.
+This repository is in supplementation to my MSc Thesis Project "Developing Enzyme-Constrained Genome-Scale Metabolic Model Pipeline to Decipher Microbiome Metabolic Alterations". Here you can find several relevant scripts and results. Only scipts fully written by myself are included in this repository, the rest of the code is withheld until the work is finished and published.
 
 fva.py:
 This python script automatically determines which fva results are still not created and calls fva.m for corresponding samples. It also performs a rudimentary differential abundance analysis (not included in the Thesis report), and creates several csv files containing p-values from DA, taxonomy csv, and 2 abundance dictionaries.
